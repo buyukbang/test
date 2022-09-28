@@ -1,0 +1,577 @@
+{
+  "categories": [
+    {
+      "id": "0ba3dbdb-d75f-41ea-8968-109600d1d3b8",
+      "name": "Kısayollar",
+      "shortcuts": [
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e\n\nAAAAAgAAAMQAAABLAw\u003d\u003d\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "3f9cc01c-6f8f-438c-9bab-61b5cd4ea687",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "fe564980-233e-4bb7-a2b3-996b890c40aa",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "8730d89c-56d0-4dbd-94a8-0fba310cc244",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "9d86f988-8e0a-448b-a016-b245e5f76492",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "4a859beb-252d-4bc3-9ca3-6c655d2febae",
+          "method": "POST",
+          "name": "Action Menu",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e\n\nAAAAAgAAAKQAAAB3Aw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "ae034aa2-0577-42b9-9df5-7ea6704d811d",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "42e6b657-af70-4cd0-92e4-0078653dc89f",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "580284e9-23bd-4bf4-b296-1134035b9e25",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "ef9a87a0-a4af-471b-9c91-12cd555076de",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "96ed1136-d874-4c52-85e4-298edc5079a7",
+          "method": "POST",
+          "name": "PAP",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAAkAw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "6fc89f4c-ebf7-48ec-b2ad-9b8b8923c41e",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "f14efa72-992c-47f5-97bb-eacaa67dfa8e",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "49b6191d-9ce2-4862-9ec8-e6eb01ac9c4c",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "ff616b5d-427e-45b6-ba8e-57288b22a33a",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "1210b05f-ee4a-4328-80dd-e838ef20984f",
+          "method": "POST",
+          "name": "TV",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAAQAw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "7ed3daea-e57b-45ac-9f17-b03c6078bb89",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "613f9377-e842-4ed9-9e7f-46b9749b2628",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "047dcd89-0c62-4d00-b53d-82f057e6cc38",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "ad4f9936-09b1-4e55-bc8a-565f4065b562",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "cbe9a2ea-a480-4e9f-bd27-f0621afe5425",
+          "method": "POST",
+          "name": "Channel Up",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAARAw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "e723001d-e3da-40e4-b4c0-a9434df198c9",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "dbe34010-b6a7-4abf-aa84-60dd3a0b9d73",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "337b6def-bf80-4dec-96cc-e11bc881d24e",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "02d57cbe-15c6-42fc-8245-ff4efc38d563",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "46d50aa4-7120-4448-be40-6453ea0077cb",
+          "method": "POST",
+          "name": "Channel Down",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAgAAAJcAAAAYAw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "729464b5-316a-4f9c-8130-6d1fea5fb1cf",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "27ab461b-0514-4dc1-8e4b-10f8cecd9f67",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "adc69aa4-ced1-44b5-8887-dd38ac2d9978",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "8560f77e-50ad-4180-9af7-a45393cda1c5",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "75f5e78b-de40-49ce-b77d-66591be66e81",
+          "method": "POST",
+          "name": "Stop",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAgAAAJcAAAAoAw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "14352b92-471a-4909-8621-bccd740165c5",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "d3fc5af8-bc3e-4065-a910-6b5a234c9bf2",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "a5a8d7e5-2eb6-4a0f-ab67-cdf6cfeb9154",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "f365b650-1b5a-444e-b96c-63426fc996bc",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "adbb0198-027f-4bf4-b3aa-e7fe60f3f3f4",
+          "method": "POST",
+          "name": "Subtitle",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAA/Aw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "d69d75a6-4333-4a4d-b891-03d76a56451a",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "228a8c6c-f25f-4532-a9a4-7299b9a096a5",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "f98c1d77-d346-491e-bf3e-6965b3c0be58",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "a0a48117-c6fe-410c-add1-91f85c92e9b2",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "7da75154-40d3-4c87-989d-96a5c431650d",
+          "method": "POST",
+          "name": "Teletext",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAgAAAJcAAAAgAw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "4339d3ca-5c50-46d8-bbce-fa2977a437fe",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "4816c072-762c-4f80-9f16-3a4ad2901650",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "60563ddc-0f68-4a6e-b9e2-6e117cacc2f8",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "988e299a-ef46-48af-bd48-5824613387c9",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "10a66a0e-553e-4a76-9055-556456061520",
+          "method": "POST",
+          "name": "Record",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAA2Aw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "1ad405e2-6b01-4983-8d0f-acd80513fb94",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "a0e71ad8-c174-4e41-960e-7256b29a6475",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "6f12dfd5-97f7-4386-bbfb-ee1923edd616",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "25cea4f0-9bb9-40ca-9504-c3723150086e",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "56396804-98c5-406e-921d-601707dda9c7",
+          "method": "POST",
+          "name": "Sleep Timer",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAAXAw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "cce02580-c9a2-4db6-8590-a14b5671bc53",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "fb731b33-a821-472d-9c42-601e7de20150",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "a8fca55c-2ec7-4d37-bae5-c8c52b27622e",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "f43abcbc-9755-4299-95bd-c2d0e554abdc",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "a7fbab71-04da-47a9-a190-c84864c50e88",
+          "method": "POST",
+          "name": "Audio",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAA+Aw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "ca5568a9-80e5-4f18-988a-d9167e86ccff",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "92662024-3efa-412a-b14e-59f499ce69e7",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "48abdafc-0bba-4046-959c-8f47f6659561",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "65551475-75ef-410f-85fc-e47239673e5c",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "ccce7c1d-8c3a-4f44-80df-4c912bdc3c34",
+          "method": "POST",
+          "name": "Picture Off",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAAOAw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "8d419f32-b7e9-49b7-bd97-c257ad23f26c",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "8181e242-9ab8-4034-a38a-b5b49c434031",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "27d6139c-a6c8-4818-96a8-8074f9f300bd",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "9207edc0-6b4a-45ed-bb51-e8f53afbbb26",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "50f7f1f3-6645-4cd2-ad9a-8539f89450fc",
+          "method": "POST",
+          "name": "Guide",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "\u003c?xml version\u003d\"1.0\"?\u003e\u003cs:Envelope xmlns:s\u003d\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle\u003d\"http://schemas.xmlsoap.org/soap/encoding/\"\u003e\u003cs:Body\u003e\u003cu:X_SendIRCC xmlns:u\u003d\"urn:schemas-sony-com:service:IRCC:1\"\u003e\u003cIRCCCode\u003e \n\nAAAAAQAAAAEAAAA6Aw\n\n\u003c/IRCCCode\u003e\u003c/u:X_SendIRCC\u003e\u003c/s:Body\u003e\u003c/s:Envelope\u003e",
+          "headers": [
+            {
+              "id": "d49f80cc-8e0d-41c2-8a33-bb994104764b",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "90031817-4f88-4e9c-949a-03c4864b642e",
+              "key": "charset",
+              "value": "UTF8"
+            },
+            {
+              "id": "8e796d6c-697a-4c09-9098-fcd4390fd20c",
+              "key": "SOAPACTION",
+              "value": "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
+            },
+            {
+              "id": "481c74fc-434a-4e49-ab75-24d77e5d8ed5",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            }
+          ],
+          "iconName": "flat_color_lightbulb_4",
+          "id": "5ef5945d-509c-4b4a-a1d9-55922d7b3dbe",
+          "method": "POST",
+          "name": "Info",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "url": "http://192.168.10.15/sony/IRCC"
+        },
+        {
+          "bodyContent": "{\n    \"method\": \"setPictureQualitySettings\",\n    \"id\": 12,\n    \"params\": [{\"settings\": [{\n        \"value\": \"on\",\n        \"target\": \"lightSensor\"\n    }]}],\n    \"version\": \"1.0\"\n}",
+          "contentType": "application/json",
+          "headers": [
+            {
+              "id": "811df489-9e0a-4127-8b22-e427ca6645cf",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "be948ac8-e351-48bb-86a7-ab86ad7bca15",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            },
+            {
+              "id": "04ca7d7f-3645-474b-b375-279759f229cb",
+              "key": "charset",
+              "value": "UTF8"
+            }
+          ],
+          "iconName": "flat_color_brightness_4",
+          "id": "aa3aebbc-fb46-4c4f-a9bb-380a039ec49e",
+          "method": "POST",
+          "name": "Light Sensor On",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.10.15/sony/video"
+        },
+        {
+          "bodyContent": "{\n    \"method\": \"setPictureQualitySettings\",\n    \"id\": 12,\n    \"params\": [{\"settings\": [{\n        \"value\": \"off\",\n        \"target\": \"lightSensor\"\n    }]}],\n    \"version\": \"1.0\"\n}",
+          "contentType": "application/json",
+          "headers": [
+            {
+              "id": "8179e2ed-62cc-43cd-a2c2-c09832d84692",
+              "key": "Content-Type",
+              "value": "text/xml"
+            },
+            {
+              "id": "e4735fe5-c89d-4e95-83dc-d761aaaeca1a",
+              "key": "X-Auth-PSK",
+              "value": "0000"
+            },
+            {
+              "id": "084f0098-6a13-4d45-962c-b5ade29f7636",
+              "key": "charset",
+              "value": "UTF8"
+            }
+          ],
+          "iconName": "flat_color_brightness_4",
+          "id": "3ba06ae9-29df-46b2-9481-3c6ae550d7b9",
+          "method": "POST",
+          "name": "Light Sensor Off",
+          "responseHandling": {
+            "failureOutput": "none",
+            "successOutput": "none",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.10.15/sony/video"
+        },
+        {
+          "bodyContent": "{ \"method\": \"getRemoteControllerInfo\", \"id\": 54, \"params\": [], \"version\": \"1.0\" }",
+          "contentType": "application/json",
+          "iconName": "flat_color_brightness_4",
+          "id": "5f324e20-4bd3-42d3-b9e0-78c769a184cf",
+          "method": "POST",
+          "name": ".Button List",
+          "responseHandling": {},
+          "timeout": 0,
+          "url": "http://192.168.10.15/sony/system"
+        }
+      ]
+    }
+  ],
+  "title": "",
+  "version": 53
+}
